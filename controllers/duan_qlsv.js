@@ -131,7 +131,7 @@ function renderSinhVien(arrSV) {
                 <td>${svNew.email}</td>
                 <td>${svNew.soDienThoai}</td>
                 <td>${svNew.tinhDiemTrungBinh()}</td>
-                <td><button class="btn btn-danger" onclick="xoaSinhVien('${index}')">Xoá</button></td>
+                
                 <td>
                 <button class="btn btn-danger mx-2" onclick="xoaSinhVienTheoMa('${svNew.maSinhVien}')">Xoá</button>
                 <button class="btn btn-primary mx-2" onclick="suaSinhVien('${svNew.maSinhVien}')">chỉnh sửa</button>
